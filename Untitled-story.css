@@ -1,0 +1,856 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+			margin: 0;
+			padding: 0;
+		}
+		.a{
+	height: 4100px;
+	width: 100%;
+	
+			background-color:#F3F3F2;
+			position: relative;
+		}
+		.b{
+			height: 760px;
+		width: 350px;
+			background-image: url("未标题-1.png");
+			
+			position:sticky;
+			top: 0;
+			
+			
+		}
+		.c{height: 300px;
+		width: 100%;
+		background:#000000;
+		position:relative;}
+		
+		
+		.b2 ul{
+			width: 190px;
+			height: 360px;
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			
+			
+		}
+.b2 ul li{
+	width: 190px;
+height: 30px;
+	list-style-type: none;
+	
+			margin-top:20px;
+	margin-bottom: 20px;
+	margin-left: 25px;
+	cursor: pointer;
+	position: relative;
+	color:#000000;
+	
+	
+	transition: 0.5s;
+	z-index: 2;
+	
+	transition: color 0.5s;
+}
+		
+		.b1{
+			height:250px;
+			width: 350px;
+			background-image: url("未标题-2.png");
+		}
+		.c1{
+			height: 300px;
+			width: 350px;
+			background-image: url("未标题-4.png") ;
+			position: absolute;
+			left: 130px;
+		}
+		.c2{
+			height: 176px;
+		width: 910px;
+			background-image: url("mQPBsM(2).png");
+			position: absolute;
+			bottom: 252px;
+			right: 0;
+		}
+.b2{
+	width: 190px;
+	height: 360px;
+	
+	
+}
+
+
+
+
+
+	
+
+	
+
+.b2 ul li::after{
+	content:'';
+	background:#000000;
+    width: 300px;
+	height: 100%;
+	position: absolute;
+	left:-100%;
+	top: 50%;
+	transform: translate(-60%,-50%);
+	z-index: -1;
+	opacity: 0;
+	transition: left 0.5s,opacity 0.5s;
+}
+.b2 ul li:hover{
+	color:#FBFAFA ;
+}
+.b2 ul li:hover::after{
+	
+	left: 30%;opacity: 1;
+}
+.d{
+	width: 1100px;
+	height: 4000px;
+	sdzfbackground: #40CDB2;
+	position: absolute;
+	left: 400px;
+	top: 0;
+}
+
+.zhedang{
+	height: 30px;
+	width: 200px;
+	position: absolute;
+	top: 320px;
+	left: 0;
+	background: #000000;
+	z-index: 22;
+	color: #FFF9F9
+}
+
+.more{
+	text-decoration: none;
+	
+}
+
+.d1{
+	width:250px;
+	height: 70px;
+	
+	font-size: 50px;
+	background: #000000;
+	color: #FFFFFF;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	
+	
+	
+}
+
+.d2{
+	width: 1100px;
+	height: 1700px;
+	sdgbackground:#80BB5F;
+	margin-top: 50px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	position:relative;
+	
+
+}
+
+
+.bigbox{
+	width: 1100px;
+	height: 115px;
+	
+	display: flex;
+	justify-content: center;
+	
+}
+
+
+
+
+.right{
+	height: 115px;
+	width: 400px;
+	background: n;
+	text-align: left;
+	
+	
+}
+.left{
+	height: 115px;
+	width: 400px;
+	background: b;
+	text-align: right;
+	
+}
+.center{
+	height: 130px;
+	width:100px;
+	position: relative;
+	background: ow;
+	
+}
+
+.center::after{
+	content: '';
+	position: absolute;
+	left: 49px;
+	background:green;
+	width: 2px;
+	height: 130px;
+}
+
+.zi{
+	color: green;
+	margin: 0px;
+}
+
+.smallbox1{
+	height: 8px;
+	width: 8px;
+	border-radius: 50%;
+	background: green;
+	position: absolute;
+	left: 46px;
+}
+
+.smallbox1::before{
+	content: '1960 春';
+	height: 25px;
+	width: 100px;
+	background:green;
+	color: white;
+	position: absolute;right: 50px;
+	border-radius: 50px;
+		
+}
+
+.smallbox2{
+	height: 8px;
+	width: 8px;
+	border-radius: 50%;
+	background: green;
+	position: absolute;
+	left: 46px;
+}
+
+.smallbox2::after{
+	content: '1960 春';
+	height: 25px;
+	width: 100px;
+	background:green;
+	color: white;
+	position: absolute;left: 50px;
+	border-radius: 50px;
+		
+}
+.smallbox3{
+	height: 8px;
+	width: 8px;
+	border-radius: 50%;
+	background: green;
+	position: absolute;
+	left: 46px;
+}
+
+.smallbox3::before{
+	content: '1960 夏';
+	height: 25px;
+	width: 100px;
+	background:green;
+	color: white;
+	position: absolute;right: 50px;
+	border-radius: 50px;
+		
+}
+
+.smallbox4{
+	height: 8px;
+	width: 8px;
+	border-radius: 50%;
+	background: green;
+	position: absolute;
+	left: 46px;
+}
+
+.smallbox4::after{
+	content: '1865 夏';
+	height: 25px;
+	width: 100px;
+	background:green;
+	color: white;
+	position: absolute;left: 50px;
+	border-radius: 50px;
+		
+}
+.smallbox5{
+	height: 8px;
+	width: 8px;
+	border-radius: 50%;
+	background: green;
+	position: absolute;
+	left: 46px;
+}
+
+.smallbox5::before{
+	content: '1867 春';
+	height: 25px;
+	width: 100px;
+	background:green;
+	color: white;
+	position: absolute;right: 50px;
+	border-radius: 50px;
+		
+}
+
+.smallbox6{
+	height: 8px;
+	width: 8px;
+	border-radius: 50%;
+	background: green;
+	position: absolute;
+	left: 46px;
+}
+
+.smallbox6::after{
+	content: '1870 夏';
+	height: 25px;
+	width: 100px;
+	background:green;
+	color: white;
+	position: absolute;left: 50px;
+	border-radius: 50px;
+		
+}
+.smallbox7{
+	height: 8px;
+	width: 8px;
+	border-radius: 50%;
+	background: green;
+	position: absolute;
+	left: 46px;
+}
+
+.smallbox7::before{
+	content: '1870 夏';
+	height: 25px;
+	width: 100px;
+	background:green;
+	color: white;
+	position: absolute;right: 50px;
+	border-radius: 50px;
+		
+}
+
+.smallbox8{
+	height: 8px;
+	width: 8px;
+	border-radius: 50%;
+	background: green;
+	position: absolute;
+	left: 46px;
+}
+
+.smallbox8::after{
+	content: '1870 夏';
+	height: 25px;
+	width: 100px;
+	background:green;
+	color: white;
+	position: absolute;left: 50px;
+	border-radius: 50px;
+		
+}
+.smallbox9{
+	height: 8px;
+	width: 8px;
+	border-radius: 50%;
+	background: green;
+	position: absolute;
+	left: 46px;
+}
+
+.smallbox9::before{
+	content: '1876 春';
+	height: 25px;
+	width: 100px;
+	background:green;
+	color: white;
+	position: absolute;right: 50px;
+	border-radius: 50px;
+		
+}
+
+.smallbox10{
+	height: 8px;
+	width: 8px;
+	border-radius: 50%;
+	background: green;
+	position: absolute;
+	left: 46px;
+}
+
+.smallbox10::after{
+	content: '1884 春';
+	height: 25px;
+	width: 100px;
+	background:green;
+	color: white;
+	position: absolute;left: 50px;
+	border-radius: 50px;
+		
+}
+.smallbox11{
+	height: 8px;
+	width: 8px;
+	border-radius: 50%;
+	background: green;
+	position: absolute;
+	left: 46px;
+}
+
+.smallbox11::before{
+	content: '1885 春';
+	height: 25px;
+	width: 100px;
+	background:green;
+	color: white;
+	position: absolute;right: 50px;
+	border-radius: 50px;
+		
+}
+
+.smallbox12{
+	height: 8px;
+	width: 8px;
+	border-radius: 50%;
+	background: green;
+	position: absolute;
+	left: 46px;
+}
+
+.smallbox12::after{
+	content: '1889 春';
+	height: 25px;
+	width: 100px;
+	background:green;
+	color: white;
+	position: absolute;left: 50px;
+	border-radius: 50px;
+		
+}
+.smallbox13{
+	height: 8px;
+	width: 8px;
+	border-radius: 50%;
+	background: green;
+	position: absolute;
+	left: 46px;
+}
+
+.smallbox13::before{
+	content: '1889 夏';
+	height: 25px;
+	width: 100px;
+	background:green;
+	color: white;
+	position: absolute;right: 50px;
+	border-radius: 50px;
+		
+}
+
+.smallbox14{
+	height: 8px;
+	width: 8px;
+	border-radius: 50%;
+	background: green;
+	position: absolute;
+	left: 46px;
+}
+
+.smallbox14::after{
+	content: '1891 秋';
+	height: 25px;
+	width: 100px;
+	background:green;
+	color: white;
+	position: absolute;left: 50px;
+	border-radius: 50px;
+		
+}
+.smallbox15{
+	height: 8px;
+	width: 8px;
+	border-radius: 50%;
+	background: green;
+	position: absolute;
+	left: 46px;
+}
+
+.smallbox15::before{
+	content: '1891 秋';
+	height: 25px;
+	width: 100px;
+	background:green;
+	color: white;
+	position: absolute;right: 50px;
+	border-radius: 50px;
+		
+}
+
+.smallbox16{
+	height: 8px;
+	width: 8px;
+	border-radius: 50%;
+	background: green;
+	position: absolute;
+	left: 46px;
+}
+
+.smallbox16::after{
+	content: '1895 冬';
+	height: 25px;
+	width: 100px;
+	background:green;
+	color: white;
+	position: absolute;left: 50px;
+	border-radius: 50px;
+		
+}
+.smallbox17{
+	height: 8px;
+	width: 8px;
+	border-radius: 50%;
+	background: green;
+	position: absolute;
+	left: 46px;
+}
+
+.smallbox17::before{
+	content: '1896 夏';
+	height: 25px;
+	width: 100px;
+	background:green;
+	color: white;
+	position: absolute;right: 50px;
+	border-radius: 50px;
+		
+}
+
+.smallbox18{
+	height: 8px;
+	width: 8px;
+	border-radius: 50%;
+	background: green;
+	position: absolute;
+	left: 46px;
+}
+
+.smallbox18::after{
+	content: '1896 冬';
+	height: 25px;
+	width: 100px;
+	background:green;
+	color: white;
+	position: absolute;left: 50px;
+	border-radius: 50px;
+		
+}
+.smallbox19{
+	height: 8px;
+	width: 8px;
+	border-radius: 50%;
+	background: green;
+	position: absolute;
+	left: 46px;
+}
+
+.smallbox19::before{
+	content: '1904 夏';
+	height: 25px;
+	width: 100px;
+	background:green;
+	color: white;
+	position: absolute;right: 50px;
+	border-radius: 50px;
+		
+}
+
+.smallbox20{
+	height: 8px;
+	width: 8px;
+	border-radius: 50%;
+	background: green;
+	position: absolute;
+	left: 46px;
+}
+
+.smallbox20::after{
+	content: '1904 夏';
+	height: 25px;
+	width: 100px;
+	background:green;
+	color: white;
+	position: absolute;left: 50px;
+	border-radius: 50px;
+		
+}
+.smallbox21{
+	height: 8px;
+	width: 8px;
+	border-radius: 50%;
+	background: green;
+	position: absolute;
+	left: 46px;
+}
+
+.smallbox21::before{
+	content: '1909 夏';
+	height: 25px;
+	width: 100px;
+	background:green;
+	color: white;
+	position: absolute;right: 50px;
+	border-radius: 50px;
+		
+}
+
+.smallbox22{
+	height: 8px;
+	width: 8px;
+	border-radius: 50%;
+	background: green;
+	position: absolute;
+	left: 46px;
+}
+
+.smallbox22::after{
+	content: '1914 春';
+	height: 25px;
+	width: 100px;
+	background:green;
+	color: white;
+	position: absolute;left: 50px;
+	border-radius: 50px;
+		
+}
+.smallbox23{
+	height: 8px;
+	width: 8px;
+	border-radius: 50%;
+	background: green;
+	position: absolute;
+	left: 46px;
+}
+
+.smallbox23::before{
+	content: '1918 冬';
+	height: 25px;
+	width: 100px;
+	background:green;
+	color: white;
+	position: absolute;right: 50px;
+	border-radius: 50px;
+		
+}
+
+.smallbox24{
+	height: 8px;
+	width: 8px;
+	border-radius: 50%;
+	background: green;
+	position: absolute;
+	left: 46px;
+}
+
+.smallbox24::after{
+	content: '1919 秋';
+	height: 25px;
+	width: 100px;
+	background:green;
+	color: white;
+	position: absolute;left: 50px;
+	border-radius: 50px;
+		
+}.smallbox25{
+	height: 8px;
+	width: 8px;
+	border-radius: 50%;
+	background: green;
+	position: absolute;
+	left: 46px;
+}
+
+.smallbox25::before{
+	content: '1924 秋';
+	height: 25px;
+	width: 100px;
+	background:green;
+	color: white;
+	position: absolute;right: 50px;
+	border-radius: 50px;
+		
+}
+
+.smallbox26{
+	height: 8px;
+	width: 8px;
+	border-radius: 50%;
+	background: green;
+	position: absolute;
+	left: 46px;
+}
+
+.smallbox26::after{
+	content: '1924 秋';
+	height: 25px;
+	width: 100px;
+	background:green;
+	color: white;
+	position: absolute;left: 50px;
+	border-radius: 50px;
+		
+}.smallbox27{
+	height: 8px;
+	width: 8px;
+	border-radius: 50%;
+	background: green;
+	position: absolute;
+	left: 46px;
+}
+
+.smallbox27::before{
+	content: '1926 秋';
+	height: 25px;
+	width: 100px;
+	background:green;
+	color: white;
+	position: absolute;right: 50px;
+	border-radius: 50px;
+		
+}
+
+.smallbox28{
+	height: 8px;
+	width: 8px;
+	border-radius: 50%;
+	background: green;
+	position: absolute;
+	left: 46px;
+}
+
+.smallbox28::after{
+	content: '1927 冬';
+	height: 25px;
+	width: 100px;
+	background:green;
+	color: white;
+	position: absolute;left: 50px;
+	border-radius: 50px;
+		
+}.smallbox29{
+	height: 8px;
+	width: 8px;
+	border-radius: 50%;
+	background: green;
+	position: absolute;
+	left: 46px;
+}
+
+.smallbox29::before{
+	content: '1929 秋';
+	height: 25px;
+	width: 100px;
+	background:green;
+	color: white;
+	position: absolute;right: 50px;
+	border-radius: 50px;
+		
+}
+
+.smallbox30{
+	height: 8px;
+	width: 8px;
+	border-radius: 50%;
+	background: green;
+	position: absolute;
+	left: 46px;
+}
+
+.smallbox30::after{
+	content: '1930 冬';
+	height: 25px;
+	width: 100px;
+	background:green;
+	color: white;
+	position: absolute;left: 50px;
+	border-radius: 50px;
+		
+}
+.smallbox31{
+	height: 8px;
+	width: 8px;
+	border-radius: 50%;
+	background: green;
+	position: absolute;
+	left: 46px;
+}
+
+.smallbox31::before{
+	content: '1932 秋';
+	height: 25px;
+	width: 100px;
+	background:green;
+	color: white;
+	position: absolute;right: 50px;
+	border-radius: 50px;
+		
+}
+
+.smallbox32{
+	height: 8px;
+	width: 8px;
+	border-radius: 50%;
+	background: green;
+	position: absolute;
+	left: 46px;
+}
+
+.smallbox32::after{
+	content: '1933 春';
+	height: 25px;
+	width: 100px;
+	background:green;
+	color: white;
+	position: absolute;left: 50px;
+	border-radius: 50px;
+		
+}
+.smallbox33{
+	height: 8px;
+	width: 8px;
+	border-radius: 50%;
+	background: green;
+	position: absolute;
+	left: 46px;
+}
+
+.smallbox33::before{
+	content: '1935 春';
+	height: 25px;
+	width: 100px;
+	background:green;
+	color: white;
+	position: absolute;right: 50px;
+	border-radius: 50px;
+		
+}
+

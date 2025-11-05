@@ -1,0 +1,365 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+			margin: 0;
+			padding: 0;
+		}
+		.a{
+	height: 1300px;
+	width: 100%;
+	
+			background-color:#F3F3F2;
+			position: relative;
+		}
+		.b{
+			height: 760px;
+		width: 350px;
+			background-image: url("未标题-1.png");
+			
+			position:sticky;
+			top: 0;
+			
+			
+		}
+		.c{height: 300px;
+		width: 100%;
+		background:#000000;
+		position:relative;}
+		
+		
+		.b2 ul{
+			width: 190px;
+			height: 360px;
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			
+			
+		}
+.b2 ul li{
+	width: 190px;
+height: 30px;
+	list-style-type: none;
+	
+			margin-top:20px;
+	margin-bottom: 20px;
+	margin-left: 25px;
+	cursor: pointer;
+	position: relative;
+	color:#000000;
+	
+	
+	transition: 0.5s;
+	z-index: 2;
+	
+	transition: color 0.5s;
+}
+		
+		.b1{
+			height:250px;
+			width: 350px;
+			background-image: url("未标题-2.png");
+		}
+		.c1{
+			height: 300px;
+			width: 350px;
+			background-image: url("未标题-4.png") ;
+			position: absolute;
+			left: 130px;
+		}
+		.c2{
+			height: 176px;
+		width: 910px;
+			background-image: url("mQPBsM(2).png");
+			position: absolute;
+			bottom: 252px;
+			right: 0;
+		}
+.b2{
+	width: 190px;
+	height: 360px;
+	
+	
+}
+
+
+
+
+
+	
+
+	
+
+.b2 ul li::after{
+	content:'';
+	background:#000000;
+    width: 300px;
+	height: 100%;
+	position: absolute;
+	left:-100%;
+	top: 50%;
+	transform: translate(-60%,-50%);
+	z-index: -1;
+	opacity: 0;
+	transition: left 0.5s,opacity 0.5s;
+}
+.b2 ul li:hover{
+	color:#FBFAFA ;
+}
+.b2 ul li:hover::after{
+	
+	left: 30%;opacity: 1;
+}
+.d{
+	width: 1100px;
+	height:1300px;
+	gdjbackground: #40CDB2;
+	position: absolute;
+	left: 400px;
+	top: 0;
+}
+
+.d1{
+	width: 550px;
+	height: 70px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	background: #000000;
+	color: #FFFFFF;
+	font-size: 50px;
+}
+
+.bigbox{
+	width:1100px;
+	height: 80px;
+	hfjhbackground:#5574A9;
+	background-repeat: no-repeat;
+	position: relative;
+	margin-top: 30px;
+	
+	
+}
+
+.left1{
+	height: 80px;
+	width:520px;
+	background: #5574A9;
+	float: left;
+	margin-right: 10px;
+	margin-left: 20px;
+	background-image: url("成就/1d557ced2e595be354c3fca25b764e7216220bf6.jpg");
+	background-repeat: no-repeat;
+	background-position: 8px 8px;
+}
+
+.right1{
+	height: 80px;
+	width:520px;
+	background: #5574A9;
+	float: left;
+	margin-right: 10px;
+	margin-left: 20px;
+	background-image: url("成就/3ceb98973d882161a2fc029456ca00b88cd25d32.jpg");
+	background-repeat: no-repeat;
+	background-position: 8px 8px;
+
+}
+
+.cube{
+	height: 80px;
+	width: 200px;
+	drhxbackground:#FFFFFF;
+	margin-left: 80px;
+}
+
+.left2{
+	height: 80px;
+	width:520px;
+	background: #5574A9;
+	float: left;
+	margin-right: 10px;
+	margin-left: 20px;
+	background-image:url("成就/4f4caa4a8924efa305f4508533e6613ccaf52181.jpg");
+	background-repeat: no-repeat;
+	background-position: 8px 8px;
+}
+
+.right2{
+	height: 80px;
+	width:520px;
+	background: #5574A9;
+	float: left;
+	margin-right: 10px;
+	margin-left: 20px;
+	background-image:url("成就/6f8a7a3428810981685ffa10b0cb2332a22a42d5.jpg");
+	background-repeat: no-repeat;
+	background-position: 8px 8px;
+
+}
+
+.left3{
+	height: 80px;
+	width:520px;
+	background: #5574A9;
+	float: left;
+	margin-right: 10px;
+	margin-left: 20px;
+	background-image:url("成就/7f4397f8dfd54ee2d2c5dd549799865730f00810.jpg");
+	background-repeat: no-repeat;
+	background-position: 8px 8px;
+}
+
+.right3{
+	height: 80px;
+	width:520px;
+	background: #5574A9;
+	float: left;
+	margin-right: 10px;
+	margin-left: 20px;
+	background-image:url("成就/8d137f39edf619922ebc03ba9e2a00e4988f99a8.jpg");
+	background-repeat: no-repeat;
+	background-position: 8px 8px;
+
+}
+
+.left4{
+	height: 80px;
+	width:520px;
+	background: #5574A9;
+	float: left;
+	margin-right: 10px;
+	margin-left: 20px;
+	background-image:url("成就/9e72b1d8c0aaee6b186cf3af664596ff6c33eb27.jpg");
+	background-repeat: no-repeat;
+	background-position: 8px 8px;
+}
+
+.right4{
+	height: 80px;
+	width:520px;
+	background: #5574A9;
+	float: left;
+	margin-right: 10px;
+	margin-left: 20px;
+	background-image:url("成就/11f31bfdbfe3e548c64c7ea0d1ededca02bf853e.jpg");
+	background-repeat: no-repeat;
+	background-position: 8px 8px;
+
+}
+
+.left5{
+	height: 80px;
+	width:520px;
+	background: #5574A9;
+	float: left;
+	margin-right: 10px;
+	margin-left: 20px;
+	background-image:url("成就/44c3f64fa3101030ced5c30f84cdce4e76031712.jpg");
+	background-repeat: no-repeat;
+	background-position: 8px 8px;
+}
+
+.right5{
+	height: 80px;
+	width:520px;
+	background: #5574A9;
+	float: left;
+	margin-right: 10px;
+	margin-left: 20px;
+	background-image:url("成就/94bc0d300377ca3239796d4c2086b6a26e098dae.jpg");
+	background-repeat: no-repeat;
+	background-position: 8px 8px;
+
+}
+
+.left6{
+	height: 80px;
+	width:520px;
+	background: #5574A9;
+	float: left;
+	margin-right: 10px;
+	margin-left: 20px;
+	background-image:url("成就/704f573dbc8b540779c4a5c1f1067f1424d1099f.jpg");
+	background-repeat: no-repeat;
+	background-position: 8px 8px;
+}
+
+.right6{
+	height: 80px;
+	width:520px;
+	background: #5574A9;
+	float: left;
+	margin-right: 10px;
+	margin-left: 20px;
+	background-image:url("成就/34262af99085e4c23e4e222db51ce72e45c20195.jpg");
+	background-repeat: no-repeat;
+	background-position: 8px 8px;
+
+}
+
+.left7{
+	height: 80px;
+	width:520px;
+	background: #5574A9;
+	float: left;
+	margin-right: 10px;
+	margin-left: 20px;
+	background-image:url("成就/b95a781f104ac661328ccf239282c67eef5bce47.jpg");
+	background-repeat: no-repeat;
+	background-position: 8px 8px;
+}
+
+.right7{
+	height: 80px;
+	width:520px;
+	background: #5574A9;
+	float: left;
+	margin-right: 10px;
+	margin-left: 20px;
+	background-image:url("成就/db80febb63e3fac07435cfbe6012732085a52fa4.jpg");
+	background-repeat: no-repeat;
+	background-position: 8px 8px;
+
+}
+
+.left8{
+	height: 80px;
+	width:520px;
+	background: #5574A9;
+	float: left;
+	margin-right: 10px;
+	margin-left: 20px;
+	background-image:url("成就/75ec053e2388c08937c3dff0ba002e7a6498a6db.jpg");
+	background-repeat: no-repeat;
+	background-position: 8px 8px;
+}
+
+.right8{
+	height: 80px;
+	width:520px;
+	background: #5574A9;
+	float: left;
+	margin-right: 10px;
+	margin-left: 20px;
+	background-image:url("成就/e0bf75c9112985280f66038c6a2ca2a13af4009e.jpg");
+	background-repeat: no-repeat;
+	background-position: 8px 8px;
+
+}
+
+.more{
+	text-decoration: none;
+	
+}
+
+.zhedang{
+	height: 30px;
+	width: 200px;
+	position: absolute;
+	top: 520px;
+	left: 0;
+	background: #000000;
+	z-index: 22;
+	color: #FFF9F9
+}

@@ -1,0 +1,185 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+			margin: 0;
+			padding: 0;
+		}
+		.a{
+	height: 1000px;
+	width: 100%;
+	
+			background-color:#F3F3F2;
+			position: relative;
+		}
+		.b{
+			height: 760px;
+		width: 350px;
+			background-image: url("未标题-1.png");
+			
+			position:sticky;
+			top: 0;
+			
+			
+		}
+		.c{height: 300px;
+		width: 100%;
+		background:#000000;
+		position:relative;}
+		
+		
+		.b2 ul{
+			width: 190px;
+			height: 360px;
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			
+			
+		}
+.b2 ul li{
+	width: 190px;
+height: 30px;
+	list-style-type: none;
+	
+			margin-top:20px;
+	margin-bottom: 20px;
+	margin-left: 25px;
+	cursor: pointer;
+	position: relative;
+	color:#000000;
+	
+	
+	transition: 0.5s;
+	z-index: 2;
+	
+	transition: color 0.5s;
+}
+		
+		.b1{
+			height:250px;
+			width: 350px;
+			background-image: url("未标题-2.png");
+		}
+		.c1{
+			height: 300px;
+			width: 350px;
+			background-image: url("未标题-4.png") ;
+			position: absolute;
+			left: 130px;
+		}
+		.c2{
+			height: 176px;
+		width: 910px;
+			background-image: url("mQPBsM(2).png");
+			position: absolute;
+			bottom: 252px;
+			right: 0;
+		}
+.b2{
+	width: 190px;
+	height: 360px;
+	
+	
+}
+
+
+
+
+
+	
+
+	
+
+.b2 ul li::after{
+	content:'';
+	background:#000000;
+    width: 300px;
+	height: 100%;
+	position: absolute;
+	left:-100%;
+	top: 50%;
+	transform: translate(-60%,-50%);
+	z-index: -1;
+	opacity: 0;
+	transition: left 0.5s,opacity 0.5s;
+}
+.b2 ul li:hover{
+	color:#FBFAFA ;
+}
+.b2 ul li:hover::after{
+	
+	left: 30%;opacity: 1;
+}
+.d{
+	width: 1100px;
+	height: 1000px;
+	sdzfbackground: #40CDB2;
+	position: absolute;
+	left: 400px;
+	top: 0;
+}
+
+.zhedang{
+	height: 30px;
+	width: 200px;
+	position: absolute;
+	top: 470px;
+	left: 0;
+	background: #000000;
+	z-index: 22;
+	color: #FFF9F9
+}
+
+.more{
+	text-decoration: none;
+	
+}
+
+.d1{
+	width:250px;
+	height: 70px;
+	
+	font-size: 50px;
+	background: #000000;
+	color: #FFFFFF;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	
+	
+	
+}
+.box{
+	height: 350px;
+	width:450px;
+	background-image:url("login-pic.png");
+	position: absolute;
+	right:320px;
+	top: 200px;
+	
+}
+.big{
+	height: 230px;
+	width: 450px;
+	background-color: #fff;
+	position: absolute;
+	top: 150px;
+}
+.tel,.pwd,.btn{
+	width:298px;
+	height:40px;
+	border: none;
+	border-bottom:1px solid #dcdcdc;
+	font-size: 16px;
+	margin-bottom: 20px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	outline: none;user-select: none;
+}
+.btn{
+	border:none;
+	background-color: #2780ed;
+	color:#fff;
+}
+.span{font-size:16px;}
